@@ -10,11 +10,11 @@ interface BreedImageProps {
 const BreedImage = ({ item, width, height } : BreedImageProps) => {
     return <View >
         <Image
-            src={item.image.url}
+            src={item?.image.url}
             width={width}
             height={height}
             objectFit="cover"
-            alt={`${item.name} Image`}
+            alt={`${item?.name} Image`}
         />
     </View>
 }

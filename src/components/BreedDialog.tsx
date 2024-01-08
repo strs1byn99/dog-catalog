@@ -42,7 +42,7 @@ const BreedDialog = ({ breed } : BreedProps) => {
     return <DialogTrigger type="fullscreen">
         <ActionButton onPress={() => fetchMoreImages()}>{labels.CLICK_ME}</ActionButton>
         {(close) => <Dialog>
-            <Heading>{breed.name}</Heading>
+            <Heading>{breed?.name}</Heading>
             <Divider />
             <Content>
                 <Flex direction={position.ROW} gap={sizes.SIZE_500} alignItems={position.CENTER}>

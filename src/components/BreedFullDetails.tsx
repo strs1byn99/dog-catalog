@@ -33,10 +33,10 @@ const BreedFullDetails = ({ breed, data } : BreedProps) => {
                 >
                 {option => <Item>{option?.name}</Item>}
             </ComboBox>
-            <BreedImage item={item} width={sizes.SIZE_2000} height={sizes.SIZE_2000} />
-            <Header alignSelf={position.CENTER}><b>{item?.name}</b></Header>
-            <BreedDialog breed={item} />
-            <View width={sizes.SIZE_2000}><BreedTextDetails item={item} /></View>
+            {item && <BreedImage item={item} width={sizes.SIZE_2000} height={sizes.SIZE_2000} />}
+            {item && <Header alignSelf={position.CENTER}><b>{item?.name}</b></Header>}
+            {item && <BreedDialog breed={item} />}
+            {item && <View width={sizes.SIZE_2000}><BreedTextDetails item={item} /></View>}
         </Flex>
     </View>
 }
