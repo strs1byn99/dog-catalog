@@ -1,0 +1,8 @@
+.app {
+  height: 800px;
+  min-width: fit-content;
+}
+
+.compare-app {
+  min-width: 1200px;
+}

@@ -1,0 +1,10 @@
+export const CHOOSE_A_BREED: string = "Choose a Breed: ";
+export const COMPARE_DOG_BREEDS: string = "Comparing Dog Breeds";
+export const DOG_CATALOG: string =  "Dog Catalog";
+export const WHICH_IS_YOUR_FAVORITE: string = "Which is your favorite?";
+export const BACK_TO_CATALOG: string = "<< Back to catalog";
+export const LOADING_LABEL: string = "Loading…";
+export const GO_TO_COMPARE_BREEDS: string = "Click to Compare Different Breeds >>";
+export const SEARCH_LABEL: string = "Search by name..";
+export const CLICK_ME: string = "Click me!";
+export const NO_MATCHING_RESULT: string = "No matching results. Here's what we have:";
